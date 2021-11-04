@@ -1,0 +1,36 @@
+{
+  "name": "discord-dao-treasury-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_stuff.js",
+  "scripts": {
+    "codegen": "dotenv -- graphql-codegen --config codegen.yaml && tsc utils/subgraph/subgraph.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsteFilipe/discord-dao-treasury-management.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EsteFilipe/discord-dao-treasury-management/issues"
+  },
+  "homepage": "https://github.com/EsteFilipe/discord-dao-treasury-management#readme",
+  "dependencies": {
+    "@enzymefinance/protocol": "^2.0.1",
+    "@uniswap/sdk": "^3.0.3",
+    "axios": "^0.21.1",
+    "dotenv-extended": "^2.9.0",
+    "ethers": "^5.0.30",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.20.0",
+    "@graphql-codegen/typescript": "^1.20.0",
+    "@graphql-codegen/typescript-graphql-request": "^3.0.0",
+    "@graphql-codegen/typescript-operations": "^1.17.13",
+    "dotenv-cli": "^4.0.0",
+    "typescript": "^4.4.3"
+  }
+}
